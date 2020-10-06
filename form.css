@@ -1,0 +1,23 @@
+.form-container {
+    width: calc(100% - 60px);
+    padding: 50px 30px;
+}
+
+.heading-1 {
+
+}
+
+.desc {
+    color: #b9b9b9;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+hr {
+    margin: 32px 0;
+}
+
+.red {
+    color: rgb(211, 76, 76);
+}
