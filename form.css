@@ -1,23 +1,70 @@
-.form-container {
-    width: calc(100% - 60px);
-    padding: 50px 30px;
+@font-face {
+  font-family: "SunBatang-Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SunBatang-Medium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Medium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.heading-1 {
+.form-container {
+  font-family: "SunBatang-Light";
+  width: calc(100% - 100px);
+  padding: 50px 50px;
+  background-image: url(https://images.app.goo.gl/JGGsc8agAPT9pkAa6);
+}
 
+.form-section {
+  margin: 40px 0;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "SunBatang-Medium";
+}
+
+h4 {
+  margin-top: 32px;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 .desc {
-    color: #b9b9b9;
-    font-size: 18px;
-    display: inline-block;
-    margin-left: 10px;
+  color: #b9b9b9;
+  font-size: 16px;
+  display: inline-block;
 }
 
 hr {
-    margin: 32px 0;
+  margin: 32px 0;
 }
 
 .red {
-    color: rgb(211, 76, 76);
+  color: rgb(211, 76, 76);
+}
+
+a {
+  color: #383838;
+}
+
+a :hover {
+  color: #383838;
+}
+
+a :active {
+  color: #383838;
+}
+
+a :visited {
+  color: #383838;
 }
